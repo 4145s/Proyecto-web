@@ -1,0 +1,317 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #faf6f0; /* Color de fondo suave */
+}
+
+/* Estilo del encabezado */
+header.navbar {
+    display: flex; /* Alinea los elementos en fila */
+    justify-content: space-between; /* Espacio entre los elementos */
+    align-items: center; /* Centra verticalmente */
+    background-color: white; /* Fondo blanco */
+    padding: 10px 20px;
+    border-radius: 30px; /* Bordes redondeados */
+    margin: 20px auto; /* Espacio exterior */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    max-width: 1350px;
+}
+
+/* Estilo del logo */
+header.navbar img {
+    height: 50px; /* Ajusta el tamaño del logo */
+}
+
+/* Estilo del menú */
+ul {
+    list-style: none; /* Quita los puntos de la lista */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Poner los elementos en fila */
+}
+
+ul li {
+    margin: 0px 80px; /* Espaciado entre los elementos */
+}
+
+ul li a {
+    text-decoration: none; /* Quita el subrayado */
+    color: black; /* Color del texto */
+    font-weight: bold;
+    font-size: 16px;
+}
+.fondoimagen{
+    background-image: url("../Banner/banner_new1.png"); /* Ruta de la imagen de fondo */
+    background-size: cover; /* La imagen cubre toda la sección */
+    background-position: top; /* Centra la imagen */
+    height: 550px; /* Altura de la sección */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0); /* Color del texto */
+    text-align: center;
+    position: relative;
+    /* Animaciones */
+    animation-name: banner_opacity;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}   
+    
+/* Definición de la animación */
+@keyframes banner_opacity {
+    0% {
+        top: 5px; /* Comienza con un poco de transparencia */
+    }
+    50% {
+        top: 30px; /* Se hace visible completamente */
+    }
+    100% {
+        top: 5px; /* Vuelve a la transparencia inicial */
+    }
+}
+
+video {
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    max-width: 800px;
+    max-height: 800px;
+    margin: 50px auto;
+    padding-top: 0px;
+}
+
+.sección{
+    justify-content:flex-start;
+    align-items: flex-start;
+    text-align:center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco */
+    
+}
+
+/* Estilos para el banner de bienvenida */
+#n1 {
+    background-color: rgba(255, 165, 0, 0.1); /* Color de fondo suave */
+    color: #FFA500; /* Color de texto naranja */
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    margin: 20px auto;
+    margin-top: 20px;
+    margin-bottom: 0px
+}
+
+/* Contenedor para centrar el contenido */
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 30px auto;
+    max-width: 1100px;
+}
+
+
+
+/* Ajustes del texto */
+
+.title1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 20px;
+}
+
+/* Ajustes del texto */
+.title2{
+    font-size: 36px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 200px;
+}
+
+h3, h4 {
+    text-align:justify;
+    font-size: 15px;
+    color: #475569;
+    max-width: 2000px
+}
+/* tabla de 2x2 */
+.containertable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.table {
+    display: table;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    border-collapse: collapse;
+    border: 7px solid #000;
+}
+.table-row {
+    display: table-row;
+}
+.table-cell {
+    display: table-cell;
+    border: 7px solid #000;
+    padding: 10px;
+    text-align: center;
+    padding: 25px;
+    vertical-align: top;
+}
+p{
+    margin-top: 30px;
+    color: #475569;
+}
+/* Reseña */
+.table1 {
+    display: table;
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+}
+.table-cell1 {
+    display: table-cell; 
+    vertical-align: middle;
+    padding: 25px;
+}
+
+.table-cell1 img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+/* Galería */
+.galeria-texto {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 90px;
+}
+
+.galeria-texto h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #131621;
+}
+
+.galeria-texto p {
+    font-size: 16px;
+    color: #475569;
+    margin-bottom: 40px;
+}
+
+.galeria-table {
+    display: table;
+    width: 100%;
+    text-align: center;
+}
+
+.fila-row {
+    display: table-row;
+}
+
+.celda-cell {
+    display: table-cell;
+    padding: 10px;
+    vertical-align: top;
+}
+
+.celda-cell img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+.texto {
+    background-color: rgba(241, 148, 33, 0.7);
+    color: rgb(252, 252, 252);
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.texto h3, .texto p {
+    text-align: center;
+    margin: 5px 0;
+}
+
+/* ubicación */
+.ubicacion {
+    text-align: left;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.ubicacion h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #13192B;
+}
+
+.ubicacion p {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.tablaubi {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.rowubi {
+    display: table-row;
+}
+
+.cell-descripción{
+    display: table-cell;
+    padding: 10px;
+}
+
+.cell-titulo {
+    font-weight: bold;
+}
+
+/* pie de pagina */
+.footer {
+    background-color: rgb(255, 249, 232);
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.footer-menu span {
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.footer-iconos {
+    margin-top: 10px;
+}
+
+.footer-copy {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
