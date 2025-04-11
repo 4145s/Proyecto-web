@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opinion</title>
+</head>
+<link rel="stylesheet" href="css/nosotros.css">
+<link rel="stylesheet" href="css_responsive/nosotros-rpsv.css">
+<link rel="shortcut icon" href="imágenes y logo/icono pagina.ico">
+<body>
+    <header class="navbar">
+        <img src="imágenes y logo/logo sin fondo.png" alt="Logo">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+            </ul>
+    </header>
+    <section class="fondoimagen"></section>
+
+    <!-- FORMULARIO -->
+    <section class="formulario">
+        <h4 class="titulo">Registrate</h4>
+        <form action="">
+            <input class="controles" type="text" placeholder="Ingrese sus Nombres">
+            <input class="controles" type="text" placeholder="Ingrese sus Apellidos">
+            <input class="controles" type="text" placeholder="Ingrese su Teléfono">
+            <!-- GRUPO SEXO -->
+             <fieldset class="grupo">
+                <legend>Sexo</legend>
+                <input class="radio" type="radio" name="sexo" id="">Femenino
+                <br><input class="radio" type="radio" name="sexo" id="">Masculino
+                <br><input class="radio" type="radio" name="sexo" id="">Prefiero no contestar
+             </fieldset>
+             <!-- GRUPO FECHA -->
+             <fieldset class="grupo">
+                <legend>Fecha de Nacimiento</legend>
+                <input class="controlfecha" type="date" name="F.NACIMIENTO" id="">
+             </fieldset>
+             <fieldset class="grupo">
+                <legend>Danos tu Comentario</legend>
+                <input class="op" type="text" name="comentario" id="">
+             </fieldset>
+
+             <!-- BOTONES -->
+
+             <input class="boton" type="button" value="Enviar">
+             <input class="boton" type="submit" value="Limpiar">
+        </form>
+    </section>
+</body>
+</html>
