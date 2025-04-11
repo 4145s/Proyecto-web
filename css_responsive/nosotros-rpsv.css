@@ -1,0 +1,59 @@
+/* Tablet */
+@media (max-width: 810px){
+    /* Tal cual como esta */
+}
+/* Celular */
+@media (max-width: 480px){
+    header.navbar {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+        box-sizing: border-box;
+    }
+    
+    header.navbar img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 5px;
+    }
+    
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        gap: 5px;
+    }
+    
+    ul li {
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+    
+    ul li a {
+        display: block;
+        padding: 10px;
+    }
+    .formulario{
+        padding: 8px;
+        width: 400px;
+    }
+    .controles{
+        width: 75%;
+    }
+    .grupo{
+        padding: 5px;
+        max-width: 300px;
+        margin-left: 40px;
+    }
+    .controlfecha{
+        width: 75%;
+    }
+    .op{
+        width: 270px;
+    }
+}
